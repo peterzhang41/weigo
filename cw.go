@@ -159,11 +159,6 @@ func main() {
 		a = append(a, item_id)
 		data = append(data, a)
 	}
-	//fmt.Printf("%+v\n", data)
-
-	//0.3
-	//
-	// var data = [][]string{{item_name, item_id}}
 	writeCSV("write_id.csv", data)
 
 }
