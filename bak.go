@@ -9,20 +9,20 @@ import (
 	"strings"
 )
 
-// type prodcutsDetail struct {
-// 	Description string
-// 	Price       float64
-// 	CupString   string
-// 	//MediumImageFile string
-// }
+type prodcutsDetail struct {
+	Description string
+	Price       float64
+	CupString   string
+	//MediumImageFile string
+}
 
-// type prodcuts struct {
-// 	Products []prodcutsInfo `json:"Products"`
-// }
-//
-// type prodcutsInfo struct {
-// 	Products []prodcutsDetail `json:"Products"`
-// }
+type prodcuts struct {
+	Products []prodcutsInfo `json:"Products"`
+}
+
+type prodcutsInfo struct {
+	Products []prodcutsDetail `json:"Products"`
+}
 
 func fillSpace(orignal string) string {
 	return (strings.Replace(orignal, " ", "%20", -1))
