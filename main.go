@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
+	"strconv"
+
 	"github.com/peterzhang41/weigo/spider/csv"
 	"github.com/peterzhang41/weigo/spider/cw"
 	"github.com/peterzhang41/weigo/spider/woolies"
-	"strconv"
 )
 
 func main() {

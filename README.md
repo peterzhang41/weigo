@@ -18,8 +18,13 @@ API Url: http://www.chemistwarehouse.com.au/cmsglobalfiles/handlers/predictive_s
 0.4:
 Go -> read tmp_full_bak CSV file -> read each item it -> scrape Price and create a item list with price
 
-0.5:
+0.5:(not done)
 adding other item prices that CW not have.
 
-woolworth - A2 and Devondale milk
-Terry white - Royal Nectar and Maxigenes
+woolworth - A2
+Devondale milk (not done)
+Terry white - Royal Nectar and Maxigenes (not done)
+
+adding baby formulas and other stuff from CW
+
+
